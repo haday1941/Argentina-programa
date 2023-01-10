@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV de Juan Pérez</title>
+    <link rel="stylesheet" href="css/estilo.css">
+	<link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/909/909212.png" type="image/x-icon">
+</head>
+<body>
+	<div class="container">
+		<img  src="https://randomuser.me/api/portraits/men/97.jpg" alt="Retrato" title="Juan Pérez">
+		<h1>Juan Pérez</h1>
+		<p>Dirección: Calle Falsa 123</p>
+		<p>Teléfono: 555-555-5555</p>
+		<p>Correo electrónico: juan@gmail.com</p>
+		<h2>Educación</h2>
+		<ul>
+			<li>Universidad Z - Licenciatura en Ingeniería Informática - 2016 a 2020</li>
+		</ul>
+		<button onclick="Alt('Perfil profesional')">Perfil profesional</button>
+		<div id="Perfil profesional" style="display: none;">
+		<p>Soy un profesional altamente capacitado en programación web y con experiencia en el desarrollo de aplicaciones y páginas web. También tengo conocimientos en lenguajes de programación como Java y C++.</p>
+		</div>
+		<button onclick="Alt('Experiencia')">Experiencia laboral</button>
+		<div id="Experiencia" style="display: none;">
+		<ul>
+			<li>Empresa X - Programador web - Enero de 2020 a actualidad</li>
+			<li>Empresa Y - Programador web - Enero de 2018 a Diciembre de 2019</li>
+		</ul>
+		</div>
+		<button onclick="Alt('Habilidades')">Habilidades</button>
+		<div id="Habilidades" style="display: none;">
+		<ul>
+			<li>Programación web con HTML, CSS y JavaScript</li>
+			<li>Lenguajes de programación Java y C++</li>
+            <li>Conocimientos en bases de datos MySQL y MongoDB</li>
+		</ul>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+</html>
